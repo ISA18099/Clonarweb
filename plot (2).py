@@ -1,4 +1,3 @@
-pip install matplotlib
 import streamlit as st
 import matplotlib.pyplot as plt
 from ramachandraw.parser import get_phi_psi
@@ -7,7 +6,7 @@ from ramachandraw.utils import plot
 from io import BytesIO 
 
 st.title("Generador de Diagrama de Ramachandran")
-st.text("Autor: Jesús Alvarado-Huayhuaz")
+st.text("Autor: isa")
 
 st.sidebar.image("ramachandran_logo.png", caption="inRamachandran")
 
